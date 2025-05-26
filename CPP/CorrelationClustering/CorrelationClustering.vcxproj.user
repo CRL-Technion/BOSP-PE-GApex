@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-m "D:\Thesis\DIMACS\NY\USA-road-d.NY.gr" "D:\Thesis\DIMACS\NY\USA-road-t.NY.gr" -e 0.01 -l "D:\temp\AllPairsDijkstra.txt" -c "D:\Thesis\DIMACS\NY\NY_clusters_metafile.txt" -s "D:\Thesis\Python\Super_Edges.csv"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-m "D:\Thesis\DIMACS\NY\USA-road-d.NY.gr" "D:\Thesis\DIMACS\NY\USA-road-t.NY.gr" -e 0.01 -l "D:\temp\AllPairsDijkstra.txt" -c "D:\Thesis\DIMACS\NY\NY_clusters_metafile.txt" -s "D:\Thesis\Python\Super_Edges.csv"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

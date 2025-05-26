@@ -1,5 +1,5 @@
 # Efficient Approximate Bi-Objective Shortest-Path Computation in the Presence of Correlated Objectives
-A Python and C++ combined implementation of the algorithms described in the paper [ref]. The C++ code was originally forked from [Han Zhang's A\*pex repo](https://github.com/HanZhang39/A-pex).
+A Python and C++ combined implementation of the algorithms described in the paper [ref]. The C++ code was originally forked from [Han Zhang's A\*pex repo](https://github.com/HanZhang39/A-pex). The CPP folder contains all the C++ code organized as a single Visual Studio 2022 solution.
 The repository is comprised of two main components:
 1. **Preprocesing**: identifying correlated clusters within a DIMACS graph and genearting a new, generalized graph representation enriched with super-edges.
 2. **Query**: implementation of the PE-GA\*pex algorithm, an extension to the A\*pex algorithm endowed with Partial Expansion (PE) for performance.
